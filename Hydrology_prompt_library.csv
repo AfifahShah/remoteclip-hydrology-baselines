@@ -1,0 +1,76 @@
+class,prompt,sensor,waterbody_type,ablation_level
+deep_water,deep water,both,any,simple
+deep_water,an aerial image of deep clear water,aerial,lake,hydrology
+deep_water,a satellite image of deep blue water,aerial,lake,hydrology
+deep_water,deep water with low bottom visibility,both,any,hydrology
+deep_water,deep water with uniform dark tone,both,any,hydrology
+deep_water,an aerial orthophoto of deep water with dark tone,aerial,lake,sensor
+deep_water,an NLS lake image showing deep water with no visible bottom,NLS,lake,sensor
+deep_water,a deep river pool with dark water,both,river,hydrology
+deep_water,a deep lake basin with uniform dark water,both,lake,hydrology
+deep_water,a coastal deep water zone with strong depth gradient,both,coast,hydrology
+deep_water,deep water near a shoreline with vegetation,aerial,coast,context
+deep_water,deep water adjacent to buildings or harbor structures,aerial,coast,context
+deep_water,deep water with boats or anchored vessels nearby,aerial,coast,context
+deep_water,deep water with visible land and shoreline vegetation,aerial,coast,full
+deep_water,deep water near port structures with boats present,aerial,coast,full
+turbid,turbid water,both,any,simple
+turbid,an aerial image of turbid water with sediment plumes,aerial,river,hydrology
+turbid,a satellite image of muddy brown water,aerial,coast,hydrology
+turbid,opaque brownish water with strong scattering,both,any,hydrology
+turbid,high turbidity water with low transparency,both,any,hydrology
+turbid,an aerial orthophoto of sediment-rich turbid water,aerial,river,sensor
+turbid,an NLS lake image showing turbid scattering water,NLS,lake,sensor
+turbid,a turbid river reach with sediment-rich flow,both,river,hydrology
+turbid,a lake with high turbidity and low transparency,both,lake,hydrology
+turbid,a coastal zone with muddy sediment-laden water,both,coast,hydrology
+turbid,turbid water near land with vegetation,aerial,coast,context
+turbid,turbid water next to port structures or boats,aerial,coast,context
+turbid,turbid water near urban shoreline buildings,aerial,coast,context
+turbid,turbid water with visible land vegetation and boats nearby,aerial,coast,full
+turbid,turbid water near harbor structures with anchored vessels,aerial,coast,full
+rocky_bed,rocky bed,both,any,simple
+rocky_bed,shallow clear water with a rocky river bed,aerial,river,hydrology
+rocky_bed,underwater rocks visible through clear water,both,lake,hydrology
+rocky_bed,coarse substrate visible on the bottom,both,any,hydrology
+rocky_bed,patchy bright and dark patterns from rocks,both,any,hydrology
+rocky_bed,an aerial orthophoto showing rocks on the river bottom,aerial,river,sensor
+rocky_bed,an NLS lake image with visible rocky substrate,NLS,lake,sensor
+rocky_bed,a rocky river bed in shallow water,both,river,hydrology
+rocky_bed,a lake shoreline with visible underwater rocks,both,lake,hydrology
+rocky_bed,a coastal rocky bottom visible through clear water,both,coast,hydrology
+rocky_bed,rocky bed water near land vegetation,aerial,coast,context
+rocky_bed,rocky bed water near buildings or piers,aerial,coast,context
+rocky_bed,rocky bed water with boats casting shadows,aerial,coast,context
+rocky_bed,rocky bed water with visible land and shoreline vegetation,aerial,coast,full
+rocky_bed,rocky bed water near harbor structures with boats present,aerial,coast,full
+emergent_vegetation,emergent vegetation,both,any,simple
+emergent_vegetation,emergent vegetation standing above the water surface,both,any,hydrology
+emergent_vegetation,tall aquatic plants protruding from shallow water,both,any,hydrology
+emergent_vegetation,emergent macrophytes forming dense stands,both,any,hydrology
+emergent_vegetation,reed beds and cattails in shallow water,both,any,hydrology
+emergent_vegetation,an aerial orthophoto showing emergent reed beds,aerial,lake,sensor
+emergent_vegetation,an NLS lake image with emergent vegetation along the shore,NLS,lake,sensor
+emergent_vegetation,emergent vegetation in a river wetland,both,river,hydrology
+emergent_vegetation,emergent vegetation in a lake marsh zone,both,lake,hydrology
+emergent_vegetation,emergent vegetation along a coastal fringe,both,coast,hydrology
+emergent_vegetation,emergent vegetation near land vegetation,aerial,coast,context
+emergent_vegetation,emergent vegetation next to buildings or piers,aerial,coast,context
+emergent_vegetation,emergent vegetation with boats or harbor structures,aerial,coast,context
+emergent_vegetation,emergent vegetation with visible land and shoreline vegetation,aerial,coast,full
+emergent_vegetation,emergent vegetation near harbor structures with boats present,aerial,coast,full
+submerged_aquatic_vegetation,submerged aquatic vegetation,both,any,simple
+submerged_aquatic_vegetation,brownish submerged vegetation visible through clear water,both,any,hydrology
+submerged_aquatic_vegetation,underwater plant beds forming greenish patterns,both,any,hydrology
+submerged_aquatic_vegetation,submerged vegetation carpets on the lake bottom,both,any,hydrology
+submerged_aquatic_vegetation,underwater vegetation in shallow clear water,both,any,hydrology
+submerged_aquatic_vegetation,an aerial image showing submerged vegetation on the lake bottom,aerial,lake,sensor
+submerged_aquatic_vegetation,an image with underwater vegetation carpets,both,lake,sensor
+submerged_aquatic_vegetation,submerged vegetation in a shallow river,both,river,hydrology
+submerged_aquatic_vegetation,submerged vegetation in a lake littoral zone,both,lake,hydrology
+submerged_aquatic_vegetation,submerged vegetation in a clear coastal bay,both,coast,hydrology
+submerged_aquatic_vegetation,submerged vegetation near land vegetation,aerial,coast,context
+submerged_aquatic_vegetation,"aquatic plants seen through transparent water, with soft irregular underwater texture",aerial,coast,context
+submerged_aquatic_vegetation,submerged vegetation with boats casting shadows,aerial,coast,context
+submerged_aquatic_vegetation,submerged vegetation with visible land and shoreline vegetation,aerial,coast,full
+submerged_aquatic_vegetation,submerged vegetation near harbor structures with boats present,aerial,coast,full

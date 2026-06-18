@@ -1,0 +1,11 @@
+{
+  "top_n": 10,
+  "prompt_scoring_mode": "margin_hardneg",
+  "weight_mode": "softmax",
+  "weight_temperature": 0.05,
+  "accuracy": 0.6898550724637681,
+  "macro_f1": 0.6874868385384714,
+  "weighted_f1": 0.6874868385384714,
+  "uncalibrated_brier_clipped_score": 0.4451097611738742,
+  "platt_brier": 0.21507855360050854
+}
